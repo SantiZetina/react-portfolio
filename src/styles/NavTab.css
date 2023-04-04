@@ -1,0 +1,43 @@
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  background-color: #36323E;
+  padding: 10px;
+}
+
+.resume-container {
+  margin-right: auto;
+  color: #ffd700; /* Set the color of the "Download Resume" link */
+}
+
+.nav-tabs {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link.btn {
+  color: #d6d3d1;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-link.btn:focus {
+  outline: none;
+}
+
+.nav-link.btn.active {
+  color: gray;
+  background-color: gray;
+  border-color: #2A3037;
+}
+
+  
